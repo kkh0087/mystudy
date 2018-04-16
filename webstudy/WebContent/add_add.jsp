@@ -15,7 +15,7 @@
 		var num = $('#num').val();
 		var name = $('#name').val();
 		var radioY = '<input type = radio name =ra_' + radioIndex
-				+ ' value = yes onclick = see(this) >사용</input>'
+				+ ' value = yes onclick = see(this) checked="checked" >사용</input>'
 		var radioN = '<input type = radio name =ra_' + radioIndex
 				+ ' value = no onclick = see(this) >미사용</input>'
 		var html = '<tr name=trs'+trIdex+'>' + '<td>' + num + '</td>' + '<td>'
