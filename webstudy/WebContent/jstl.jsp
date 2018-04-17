@@ -25,9 +25,9 @@
 %>
 
 <c:forEach items="<%=list%>" var="v">
-${v}
+${v.a}
 
-<br/>
+<br>
 
 </c:forEach>
 </body>
