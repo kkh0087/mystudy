@@ -1,3 +1,4 @@
+
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
 	pageEncoding="EUC-KR"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -10,7 +11,6 @@
 <script type="text/javascript">
 	var radioIndex = 1;
 	var trIdex = 1;
-
 	function add() {
 		var num = $('#num').val();
 		var name = $('#name').val();
@@ -22,14 +22,11 @@
 				+ name + '</td></tr>';
 		var html2 = '<tr><td>' + num + '</td>' + '<td>' + name + '</td><td>'
 				+ radioY + radioN + '</td>';
-
 		$('#ta1 > tbody:last').append(html);
 		$('#ta2 > tbody:last').append(html2);
-
 		trIdex++;
 		radioIndex++;
 	}
-
 	function see(obj) {
 		var val = $(obj).prop('value');
 		var butName = $(obj).prop('name');
@@ -74,3 +71,4 @@
 
 </body>
 </html>
+
